@@ -1,0 +1,33 @@
+{
+  "name": "kroman-bot",
+  "version": "0.1.1",
+  "description": "Kroman foi feito para liderar os grupos à vontade dele",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm run lint",
+    "lint": "eslint .",
+    "pretty": "prettier --write \"/*.js\""
+  },
+  "author": "Lockou",
+  "license": "MIT",
+  "dependencies": {
+    "common-tags": "^1.8.0",
+    "discord.js": "^12.2.0",
+    "got": "^11.3.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-eslint-comments": "^3.1.1",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsdoc": "^7.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "1.18.2"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
